@@ -3,8 +3,7 @@
 import Image from "next/image";
 
 import { motion } from "framer-motion";
-import StructuredData from "./components/StructuredData";
-import { Terminal, Code2, Database, Github, Server, Braces, Layers, Mail, Container } from "lucide-react";
+import {  Code2,  Github, Mail } from "lucide-react";
 
 const skills = [
   { name: "C#", icon: "/icons/skills/csharp-svgrepo-com.svg" },
@@ -35,7 +34,6 @@ export default function Home() {
 
   return (
     <>
-      <StructuredData />
       <main className="flex flex-col items-center w-full overflow-x-hidden">
         
         {/* Hero Section */}

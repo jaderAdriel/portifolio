@@ -2,6 +2,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import StructuredData from "./components/StructuredData";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,6 +57,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
+      <head>
+        <StructuredData />
+
+      </head>
       <body className={`${inter.className} bg-neutral-950 text-neutral-100 antialiased`}>
         {children}
       </body>
