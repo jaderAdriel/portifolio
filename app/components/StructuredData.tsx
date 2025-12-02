@@ -1,3 +1,4 @@
+import { baseUrl } from "../layout";
 
 
 export default function StructuredData() {
@@ -5,7 +6,7 @@ export default function StructuredData() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Jader Adriel",
-    "url": "https://jaderadriel.com",
+    "url": baseUrl,
     "jobTitle": "Fullstack Developer",
     "sameAs": [
       "https://github.com/jaderAdriel",

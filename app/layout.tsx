@@ -10,7 +10,8 @@ export const viewport: Viewport = {
   themeColor: "#0a0a0a",
 };
 
-const baseUrl = process.env.SITE_URL || "http://localhost:3000";
+export const baseUrl = process.env.SITE_URL || "http://localhost:3000";
+
 export const metadata: Metadata = {
   title: {
     template: "%s | Jader Adriel",
