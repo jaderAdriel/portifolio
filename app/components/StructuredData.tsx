@@ -8,9 +8,9 @@ export default function StructuredData() {
     jobTitle: "Fullstack Developer",
     sameAs: [
       "https://github.com/jaderAdriel",
-      "https://www.linkedin.com/in/seu-linkedin", // Adicione seu LinkedIn
+      "www.linkedin.com/in/jader-adriel-30a719213",
     ],
-    knowsAbout: ["Web Development", "Next.js", "React", "Node.js", "GIS Data"],
+    knowsAbout: ["Web Development", "C#", ".NET", "React", "Tailwind", "Django", "Python", "Postgres"],
     description: "Desenvolvedor Fullstack e estudante apaixonado por construir soluções de software práticas e eficientes."
   };
 
