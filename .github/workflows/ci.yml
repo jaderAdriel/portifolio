@@ -22,4 +22,4 @@ jobs:
         run: npm ci
 
       - name: Buildar projeto
-        run: npm build
+        run: npm run build
