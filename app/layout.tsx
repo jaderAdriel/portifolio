@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import StructuredData from "./components/StructuredData";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -64,6 +65,19 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-neutral-950 text-neutral-100 antialiased`}>
         {children}
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-5KXDR7C00K"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5KXDR7C00K');
+          `}
+        </Script>
       </body>
     </html >
   );
