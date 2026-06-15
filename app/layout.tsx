@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description: "Transformando ideias em código. Veja meus projetos e habilidades.",
     images: [
       {
-        url: `${baseUrl}/jader.png`, // Adicione uma imagem 1200x630px na pasta public
+        url: `${baseUrl}/images/eu.png`, // Adicione uma imagem 1200x630px na pasta public
         width: 1200,
         height: 630,
         alt: "Jader Adriel - Desenvolvedor Fullstack",
